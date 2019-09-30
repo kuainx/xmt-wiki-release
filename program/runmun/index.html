@@ -300,7 +300,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../table/verb/" title="名词表" class="md-nav__link">
+    <a href="../../table/noun/" title="名词表" class="md-nav__link">
       名词表
     </a>
   </li>
@@ -398,6 +398,18 @@
   <li class="md-nav__item">
     <a href="../../knowledge/soft/" title="软件" class="md-nav__link">
       软件
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../knowledge/software/" title="微云软件" class="md-nav__link">
+      微云软件
     </a>
   </li>
 
@@ -652,6 +664,18 @@
   <li class="md-nav__item">
     <a href="../js/" title="JS语言" class="md-nav__link">
       JS语言
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../php/" title="PHP语言（简单版）" class="md-nav__link">
+      PHP语言（简单版）
     </a>
   </li>
 
@@ -1044,6 +1068,13 @@
         <li class="md-nav__item">
   <a href="#_20" title="正式报名表" class="md-nav__link">
     正式报名表
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#https" title="https" class="md-nav__link">
+    https
   </a>
   
 </li>
@@ -1516,6 +1547,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#https" title="https" class="md-nav__link">
+    https
+  </a>
+  
+</li>
+      
       
       
       
@@ -1840,6 +1878,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#https" title="https" class="md-nav__link">
+    https
+  </a>
+  
+</li>
+      
       
       
       
@@ -2102,10 +2147,14 @@
 </ul>
 <h3 id="_18">信息发布</h3>
 <ul>
-<li>源代码
+<li>
+<p>源代码
 <div class="codehilite"><pre><span></span><span class="o">@@</span> <span class="err">数据表</span> <span class="n">msg</span>
-</pre></div></li>
-<li>按照已有数据进行修改即可，可以复制或下载一个表进行保存数据</li>
+</pre></div></p>
+</li>
+<li>
+<p>按照已有数据进行修改即可，可以复制或下载一个表进行保存数据</p>
+</li>
 <li>其他固定数据修改需修改js代码，如下
     <div class="codehilite"><pre><span></span><span class="err">@@</span> <span class="nx">行</span> <span class="mi">40</span>
 <span class="kd">function</span> <span class="nx">getMsg</span><span class="p">(){</span>
@@ -2233,6 +2282,15 @@
 </ul>
 <h2 id="_20">正式报名表</h2>
 <p>单开一章</p>
+<h2 id="https">https</h2>
+<ul>
+<li>首先需要SSL证书，在FreeSSL:<a href="https://freessl.cn/">https://freessl.cn/</a>申请，推荐letsEncryptV2</li>
+<li>安装ssl证书在服务器（虚机）控制面板内，如果没有，找服务商开通</li>
+<li>HTTPS页面<strong>不能</strong>iframehttp页面，http页面<strong>可以</strong>iframehttps页面（安全警告详见console）</li>
+<li>http走80端口，https走443端口（默认）</li>
+<li>注：安装SSL证书后，仍然可以使用http协议，需要强制定位http（https），需要使用htaccess</li>
+<li></li>
+</ul>
                 
                   
                 
